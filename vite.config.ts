@@ -4,6 +4,7 @@ import path from 'path';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
+  base: process.env.NODE_ENV === 'production' ? '/simpleTable/' : '/', // needed to deploy correctly to github pages
   plugins: [
     react(),
     tailwindcss(),
