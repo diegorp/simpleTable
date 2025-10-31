@@ -1,0 +1,50 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<TableBody /> > should match snapshot 1`] = `
+<div>
+  <table>
+    <tbody
+      class="bg-white"
+    >
+      <tr
+        class="border-b last:border-b-0 border-[#E2E8F0] hover:bg-gray-50 transition-colors duration-200 ease-in-out"
+      >
+        <td
+          class="px-6 py-4 whitespace-nowrap border-r last:border-r-0 border-[#E2E8F0]"
+        >
+          1
+        </td>
+        <td
+          class="px-6 py-4 whitespace-nowrap border-r last:border-r-0 border-[#E2E8F0]"
+        >
+          Alice
+        </td>
+        <td
+          class="px-6 py-4 whitespace-nowrap border-r last:border-r-0 border-[#E2E8F0]"
+        >
+          25
+        </td>
+      </tr>
+      <tr
+        class="border-b last:border-b-0 border-[#E2E8F0] hover:bg-gray-50 transition-colors duration-200 ease-in-out"
+      >
+        <td
+          class="px-6 py-4 whitespace-nowrap border-r last:border-r-0 border-[#E2E8F0]"
+        >
+          2
+        </td>
+        <td
+          class="px-6 py-4 whitespace-nowrap border-r last:border-r-0 border-[#E2E8F0]"
+        >
+          Bob
+        </td>
+        <td
+          class="px-6 py-4 whitespace-nowrap border-r last:border-r-0 border-[#E2E8F0]"
+        >
+          30
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
